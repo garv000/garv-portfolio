@@ -401,7 +401,7 @@ export function GlobeDemo() {
         className="max-w-7xl mx-auto w-full relative overflow-hidden md:h-60 h-50 px-4">
         <h2
           className="text-center md:text-4xl text-2xl font-bold">
-          I'm very flexible with time zone communications
+          I&apos;m very flexible with time zone communications
         </h2>
         <div className="absolute w-full md:-bottom-50 -bottom-40 md:h-96 h-72 z-10">
           <World data={sampleArcs} globeConfig={globeConfig} />
