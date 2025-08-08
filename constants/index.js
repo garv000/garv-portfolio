@@ -149,8 +149,8 @@ const projects = [
     des: "A visually immersive and interactive developer portfolio built using Next.js, Tailwind CSS, Three.js, and GSAP. This project showcases my web development skills through a futuristic 3D design and fluid user experience.",
     img: "/images/portfolio.png",
     iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/three.svg"],
-    title: "/garv-portfolio.vercel.app",
-    link: "http://garv-portfolio.vercel.app"
+    title: "/garv-3dportfolio.vercel.app",
+    link: "http://garv-3dportfolio.vercel.app"
   },
   {
     id: 2,
