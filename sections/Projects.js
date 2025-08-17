@@ -20,8 +20,8 @@ const Projects = () => {
                         {projects.map((item) => (
                             <div key={item.id} className='my-20'>
                                 <PinContainer title={item.title} href={item.link} >
-                                    <div className='rounded-2xl p-7 md:w-110 w-80 h-full bg-[#0b0620]/50 flex flex-col backdrop-blur-md'>
-                                        <div className='rounded-2xl md:h-60 h-40 bg-[url(/images/bg.png)] bg-cover bg-[#13162d] p-1 overflow-hidden'>
+                                    <div className='rounded-2xl md:p-7 p-4 md:w-110 w-86 h-full bg-[#0b0620]/50 flex flex-col backdrop-blur-md'>
+                                        <div className='rounded-2xl md:h-60 h-46 bg-[url(/images/bg.png)] bg-cover bg-[#13162d] p-1 overflow-hidden'>
                                             <img src={item.img} alt={item.title} className='object-cover rotate-2 rounded-2xl mt-2' />
                                         </div>
                                         <div className="mt-10">
