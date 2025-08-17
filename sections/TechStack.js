@@ -12,8 +12,8 @@ const TechStack = () => {
                     <TitleHeader title={'TECH STACK'} number={'02'} text={'My Go-To Tools for Crafting Solutions'} />
                 </div>
                 <div className='md:mt-20 mt-10 relative'>
-                    <div className="tech-stack-gradient-left-box w-36 h-full absolute bottom-0 left-0 z-20"></div>
-                    <div className="tech-stack-gradient-right-box w-36 h-full absolute bottom-0 right-0 z-20"></div>
+                    <div className="tech-stack-gradient-left-box md:w-36 h-full absolute bottom-0 left-0 z-20"></div>
+                    <div className="tech-stack-gradient-right-box md:w-36 h-full absolute bottom-0 right-0 z-20"></div>
                     <div className='marquee h-52'>
                         <div className='marquee-box md:gap-12 gap-5'>
                             {iconsListnew.map((icon, index) => (

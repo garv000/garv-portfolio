@@ -7,21 +7,21 @@ import { projects } from '@/constants'
 
 const Projects = () => {
     return (
-        <section id='projects' className='w-full h-full flex items-center justify-center relative'>
+        <section id='projects' className='w-full h-full overflow-hidden md:overflow-visible flex items-center justify-center relative'>
             <GradientSphere sphere1Class={'projects-gradient-sphere projects-sphere-1'} sphere2Class={'projects-gradient-sphere projects-sphere-2'} />
 
             <div className='w-full md:my-40 my-20 relative z-10'>
                 <div className='container mx-auto md:p-0 px-5'>
                     <TitleHeader title={'MY PROJECTS'} number={'03'} text={'Check my recent project below for your goal'} />
                 </div>
-                <div className='md:mt-20 mt-10 container mx-auto md:p-0 px-5 max-w-[90vw]'>
+                <div className='md:mt-20 mt-10 container mx-auto md:p-0 px-5'>
                     <div className='flex flex-wrap justify-center gap-20'>
 
                         {projects.map((item) => (
                             <div key={item.id} className='my-20'>
                                 <PinContainer title={item.title} href={item.link} >
-                                    <div className='rounded-2xl p-7 w-110 h-full bg-[#0b0620]/50 flex flex-col backdrop-blur-md'>
-                                        <div className='rounded-2xl h-60 bg-[url(/images/bg.png)] bg-cover bg-[#13162d] p-1 overflow-hidden'>
+                                    <div className='rounded-2xl p-7 md:w-110 w-96 h-full bg-[#0b0620]/50 flex flex-col backdrop-blur-md'>
+                                        <div className='rounded-2xl md:h-60 h-50 bg-[url(/images/bg.png)] bg-cover bg-[#13162d] p-1 overflow-hidden'>
                                             <img src={item.img} alt={item.title} className='object-cover rotate-2 rounded-2xl mt-2' />
                                         </div>
                                         <div className="mt-10">

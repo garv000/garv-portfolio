@@ -6,8 +6,7 @@ import GradientSphere from '@/components/GradientSphere'
 
 const Contact = () => {
     return (
-        <section id='contact' className='flex justify-center items-center relative px-5 md:p-0'>
-            <GradientSphere sphere1Class={'gradient-sphere sphere-1'} sphere2Class={'gradient-sphere sphere-2'} />
+        <section id='contact' className='overflow-hidden flex justify-center items-center relative px-5 md:p-0'>
             <div className='w-full h-full container md:my-40 my-20'>
                 <TitleHeader title={'Contact Me'} text={"Let's collaborate on tailored, sustainable solutions"} number={'04'} />
                 <div className='mt-20'>
