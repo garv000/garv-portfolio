@@ -19,12 +19,17 @@ export const PinContainer = ({
     const onMouseLeave = () => {
         setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)");
     };
+    const [clicked, setClicked] = useState(false)
+    const handleClick = () => {
+        setClicked((prev) => !prev); // toggle pin on click
+    };
 
     return (
         <a
             className={cn("relative group/pin z-50  cursor-pointer", containerClassName)}
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
+            onClick={handleClick}
             href={href || "/"}>
             <div
                 style={{
@@ -40,18 +45,23 @@ export const PinContainer = ({
                     <div className={cn(" relative z-50 ", className)}>{children}</div>
                 </div>
             </div>
-            <PinPerspective title={title} href={href} />
+            <PinPerspective title={title} href={href} clicked={clicked} />
         </a>
     );
 };
 
 export const PinPerspective = ({
     title,
-    href
+    href,
+    clicked
 }) => {
     return (
         <motion.div
-            className="pointer-events-none w-96 h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
+            className={cn(
+                "pointer-events-none w-96 h-80 flex items-center justify-center opacity-0 z-[60] transition duration-500",
+                "group-hover/pin:opacity-100", // show on hover
+                clicked && "opacity-100" // keep visible if clicked
+            )}>
             <div className=" w-full h-full -mt-7 flex-none  inset-0">
                 <div className="absolute top-0 inset-x-0  flex justify-center">
                     <div
