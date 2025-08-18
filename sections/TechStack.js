@@ -11,7 +11,7 @@ const TechStack = () => {
                 <div className='container mx-auto md:p-0 px-5'>
                     <TitleHeader title={'TECH STACK'} number={'02'} text={'My Go-To Tools for Crafting Solutions'} />
                 </div>
-                <div className='md:mt-20 mt-10 relative'>
+                <div className='md:mt-20 mt-10 relative hidden md:block'>
                     <div className="tech-stack-gradient-left-box md:w-36 h-full absolute bottom-0 left-0 z-20"></div>
                     <div className="tech-stack-gradient-right-box md:w-36 h-full absolute bottom-0 right-0 z-20"></div>
                     <div className='marquee h-52'>
@@ -24,6 +24,15 @@ const TechStack = () => {
                             ))}
                         </div>
                     </div>
+                </div>
+                <div className='md:mt-20 mt-10 relative px-5 container mx-auto md:p-0 block md:hidden'>
+                    {/* <div className="tech-stack-gradient-left-box md:w-36 h-full absolute bottom-0 left-0 z-20"></div> */}
+                    {/* <div className="tech-stack-gradient-right-box md:w-36 h-full absolute bottom-0 right-0 z-20"></div> */}
+                        <div className='flex md:gap-12 gap-5 flex-wrap justify-center'>
+                            {iconsListnew.map((icon, index) => (
+                                <TechIcon key={index} icon={icon} />
+                            ))}
+                        </div>
                 </div>
             </div>
         </div>
