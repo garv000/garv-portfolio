@@ -398,7 +398,7 @@ export function GlobeDemo() {
     <div
       className="flex items-center justify-center relative w-full">
       <div
-        className="max-w-7xl mx-auto w-full relative overflow-hidden md:h-60 h-50 px-4">
+        className="max-w-7xl mx-auto w-full relative overflow-hidden md:h-60 h-50">
         <h2
           className="text-center md:text-4xl text-2xl font-bold">
           I&apos;m very flexible with time zone communications
