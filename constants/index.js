@@ -19,15 +19,11 @@ const navItems = [
     name: "Contact",
     href: "#contact",
   },
-<<<<<<< HEAD
   {
     name: "Concepts",
     href: "/concepts",
-  }
-=======
->>>>>>> 41a99b1a6c43b9265e457ce4e8fcc2fc2fe6db52
-];
-
+  },
+]
 // const bentoSocialLinks = [
 //   {
 //     name: "Facebook",
@@ -202,7 +198,6 @@ const footerIconsList = [
   },
 ];
 
-<<<<<<< HEAD
 const conceptsList = [
   {
     id: 1,
@@ -220,8 +215,6 @@ const conceptsList = [
   },
 ]
 
-=======
->>>>>>> 41a99b1a6c43b9265e457ce4e8fcc2fc2fe6db52
 export {
   navItems,
   // bentoSocialLinks,
@@ -230,8 +223,5 @@ export {
   projects,
   // testimonials,
   footerIconsList,
-<<<<<<< HEAD
   conceptsList
-=======
->>>>>>> 41a99b1a6c43b9265e457ce4e8fcc2fc2fe6db52
 };
