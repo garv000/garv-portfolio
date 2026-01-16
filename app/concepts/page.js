@@ -11,9 +11,10 @@ const page = () => {
 
         <div className='Concept-list '>
             {conceptsList.map((concept, index) => (
-                <div key={index} className='concept-item flex flex-col items-center m-4 p-4 border rounded-lg shadow-lg'>
+                <div key={index} className='concept-item flex flex-col items-center m-6 p-6 border rounded-lg shadow-lg'>
                     <h2 className='text-2xl font-semibold'>{concept.title}</h2>
                     <p className='mt-2 text-center'>{concept.description}</p>
+                    <p className='mt-2 text-center'>{concept.explaination}</p>
                     <Link href={concept.link} target="_blank" className='mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600'>Show Preview</Link>
                 </div>
             ))}
