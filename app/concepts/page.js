@@ -1,11 +1,13 @@
 import React from 'react'
 import { conceptsList } from '@/constants'
 import Link from 'next/link'
+import Navbar from '@/components/Navbar'
 
 const page = () => {
   return (
     <div>
-        <h1 className='text-4xl font-bold underline text-center mx-auto my-4'>Web Dev Concepts</h1>
+        <Navbar />
+        <h1 className='text-4xl font-bold underline text-center mx-auto my-4 mt-32'>Web Dev Concepts</h1>
 
         <div className='Concept-list '>
             {conceptsList.map((concept, index) => (
