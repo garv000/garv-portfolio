@@ -213,6 +213,13 @@ const conceptsList = [
     description: "Understanding how to optimize event handling in JavaScript using debounce and throttle.",
     explaination: "Debounce is a technique which ensures that a function is only executed after a specified delay from last fired event. When typing or keypressing event occurs rapidly for searching functionality, without debounce, after each keypress, an API is called for serching input data which lead to unnecessary API calls. But with debounce, the API is called only after user has stopped typing with some specific delay e.g., 200 ms. This reduces the number of API calls and improves performance. Throttle ensures function are executed at most once in a defined time interval irrespective of how many times event is fired. For similar example of debounce, with throttle, the API is called at a given interval repeatedly while user is typing, like in every 200 ms. This reduces the number of API calls and improves performance. Both techniques are used for optimizing event handling in JavaScript."
   },
+  {
+    id: 3,
+    title: "Map, Filter, Reduce",
+    link: "/concepts/asynchronous-programming",
+    description: "Understanding how to use map, filter, and reduce methods for array manipulation in JavaScript.",
+    explanation: "Map, filter and reduce are powerful "
+  }
 ]
 
 export {
