@@ -218,8 +218,22 @@ const conceptsList = [
     title: "Map, Filter, Reduce",
     link: "/concepts/asynchronous-programming",
     description: "Understanding how to use map, filter, and reduce methods for array manipulation in JavaScript.",
-    explanation: "Map, filter and reduce are powerful "
-  }
+    explaination: "Map, filter and reduce are powerful array methods in javscript for manipulating or transforming data. Map method creates a new array by applying function on each element of original array. Fiter method creates a new array with only required element needed based on condition from original array. Reduce method reduces array to single value by applying function on each element. This page demonstrates how to use these methods like mapping an array of products to extract required product details like name and price, filtering products based on price by showing only that product that have price greater or equal to input price and reducing all cart product prices by adding them to get total cart value"
+  },
+  {
+    id: 4,
+    title: "useState, useEffect and useRef in React",
+    link: "/concepts/asynchronous-programming",
+    description: "Understanding how to manage state, side effects, and references in React using useState, useEffect, and useRef hooks.",
+    explaination: ""
+  },
+  // {
+  //   id: 5,
+  //   title: "useMemo and useCallback in React",
+  //   link: "/concepts/asynchronous-programming",
+  //   description: "Understanding how to optimize performance in React using useMemo and useCallback hooks.",
+  //   explaination: ""
+  // },
 ]
 
 export {
