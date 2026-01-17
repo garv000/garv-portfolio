@@ -8,6 +8,7 @@ const Page = () => {
   const [smartphones, setSmartphones] = useState([]);
   const [furniture, setFurniture] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [priceFilter, setPriceFilter] = useState(0);
 
   const sequentialCalls = async () => {
     setLoading(true);
@@ -66,13 +67,45 @@ const Page = () => {
       setLoading(false);
     }
   };
+
+  const filteredParallelCalls = async (e) => {
+    e.preventDefault();
+    try {
+      setLoading(true);
+      console.time("Parallel Time");
+
+      const [beautyRes, phoneRes, furnitureRes] = await Promise.all([
+        fetch("https://dummyjson.com/products/category/beauty"),
+        fetch("https://dummyjson.com/products/category/smartphones"),
+        fetch("https://dummyjson.com/products/category/furniture"),
+      ]);
+
+      const [beautyData, phoneData, furnitureData] = await Promise.all([
+        beautyRes.json(),
+        phoneRes.json(),
+        furnitureRes.json(),
+      ]);
+      setBeauty(beautyData.products.slice(0, 5).filter(product => product.price >= (priceFilter || 0)));
+      setSmartphones(phoneData.products.slice(0, 5).filter(product => product.price >= (priceFilter || 0)));
+      setFurniture(furnitureData.products.slice(0, 5).filter(product => product.price >= (priceFilter || 0)));
+
+      console.timeEnd("Parallel Time");
+    } catch (error) {
+      console.error("API Error:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
   
   return (
     <div>
+      {/* {console.log(beauty)}
+      {console.log(smartphones)}
+      {console.log(furniture)} */}
       <h1 className="text-3xl font-bold underline text-center my-4 mx-auto">
         Asynchronous JavaScript
       </h1>
-      <div className="p-6">
+      <div className="p-6 mx-auto text-center">
         <button
           onClick={sequentialCalls}
           className="m-6 rounded bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
@@ -87,9 +120,20 @@ const Page = () => {
         </button>
 
         {loading && <p className="mb-4 text-gray-600">Loading...</p>}
+        
+        {/* Applying Filter functionality on price*/}
+        <form className="mb-6" onSubmit={filteredParallelCalls}>
+          <input type="number" placeholder="Min Price" value={priceFilter} onChange={(e)=>{setPriceFilter(e.target.value)}} className="m-2 border p-2 rounded"/>
+          <button
+            type="submit"
+            className="m-2 rounded bg-green-600 px-4 py-2 text-white hover:bg-green-700"
+          >
+            Apply Price Filter
+          </button>
+        </form>
 
         {/* Beauty */}
-        <h2 className="mb-2 text-xl font-semibold">Beauty</h2>
+        {/* {loading &&<h2 className="mb-2 text-xl font-semibold">{beauty[0].tags[0]}</h2>} */}
         <div className="mb-6 flex flex-wrap gap-4">
           {beauty.map((product) => (
             <div
@@ -108,7 +152,7 @@ const Page = () => {
         </div>
 
         {/* Smartphones */}
-        <h2 className="mb-2 text-xl font-semibold">Smartphones</h2>
+        {/* {loading && <h2 className="mb-2 text-xl font-semibold">{smartphones[0].tags[0]}</h2>} */}
         <div className="mb-6 flex flex-wrap gap-4">
           {smartphones.map((product) => (
             //   <ProductCard key={p.id} product={p} />
@@ -128,7 +172,7 @@ const Page = () => {
         </div>
 
         {/* Furniture */}
-        <h2 className="mb-2 text-xl font-semibold">Furniture</h2>
+        {/* {loading && <h2 className="mb-2 text-xl font-semibold">{furniture[0].tags[0]}</h2>} */}
         <div className="flex flex-wrap gap-4">
           {furniture.map((product) => (
             //   <ProductCard key={p.id} product={p} />
