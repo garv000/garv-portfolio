@@ -2,7 +2,6 @@
 "use client";
 import React from "react";
 import { useState, useEffect, useRef } from "react";
-import { ca } from "zod/v4/locales";
 
 const Page = () => {
   const [beauty, setBeauty] = useState([]);
@@ -188,7 +187,6 @@ const Page = () => {
               Beauty Products
             </h2>
           )}
-          {/* products are only shown when ref cat1 is true otherwise hidden */}
           <div className="mb-6 flex flex-wrap gap-4">
             {beauty.map((product) => (
               <div
