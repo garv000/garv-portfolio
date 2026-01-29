@@ -94,7 +94,7 @@ const NavBar = () => {
   return (
     <div className="w-full flex items-center justify-center fixed z-50 top-0 left-0 md:p-0 px-5">
       <div className="container md:my-10 my-5 flex items-center justify-center">
-        <div className="flex items-center md:gap-7 gap-5 bg-[#0b062030] border border-white/10 rounded-full backdrop-blur-md shadow-[0_8px_30px_rgba(0,0,0,0.25)] md:px-6 md:p-4 px-5 p-3">
+        <div className="flex items-center md:gap-6 gap-4 bg-[#0b062030] border border-white/10 rounded-full backdrop-blur-md shadow-[0_8px_30px_rgba(0,0,0,0.25)] md:px-6 md:p-4 px-4 p-3">
           {navItems.map((item, index) => (
             <div
               key={index}
