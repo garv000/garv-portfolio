@@ -3,6 +3,7 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
 
+
 const Page = () => {
   const [beauty, setBeauty] = useState([]);
   const [smartphones, setSmartphones] = useState([]);
@@ -17,6 +18,7 @@ const Page = () => {
     // Initial fetch to load products
     parallelCalls();
   }, []);
+
   useEffect(() => {
     if (cart.length > 0) {
       cartSectionRef.current?.scrollIntoView({ behavior: "smooth" });
