@@ -13,6 +13,10 @@
 
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -37,11 +41,15 @@ body {
   scroll-behavior: smooth;
   background-color: #0b0620;
   color: #a7a7a7;
+  margin: 0;
+  padding: 0;
 }
 
 section {
   width: 100dvw;
   min-height: 100dvh;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .gradient-title {

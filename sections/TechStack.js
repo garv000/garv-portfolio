@@ -8,7 +8,7 @@ const TechStack = () => {
     return (
         <div id='skills' className='w-full h-full'>
             <div className='w-full md:my-40 my-20'>
-                <div className='container mx-auto md:p-0 px-5'>
+                <div className='container mx-auto md:p-0 px-5 lg:px-[16px]'>
                     <TitleHeader title={'TECH STACK'} number={'02'} text={'My Go-To Tools for Crafting Solutions'} />
                 </div>
                 <div className='md:mt-20 mt-10 relative hidden md:block'>
