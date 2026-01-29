@@ -188,7 +188,7 @@ const footerIconsList = [
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/garv-singhal-1b378a248/",
+    href: "https://www.linkedin.com/in/garv-singhal-work/",
     icon: "/images/b-linked.svg",
   },
   {

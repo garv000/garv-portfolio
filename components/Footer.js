@@ -13,7 +13,7 @@ const Footer = () => {
 
                 {/* Copyright */}
                 <p className="text-xs md:text-sm text-white/60 tracking-wide aeonik-regular text-center md:text-right">
-                    © 2025 Garv Singhal. All rights reserved.
+                    © 2026 Garv Singhal. All rights reserved.
                 </p>
 
                 {/* Icons */}
