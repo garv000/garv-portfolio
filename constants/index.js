@@ -1,3 +1,5 @@
+import { id } from "zod/v4/locales";
+
 const navItems = [
   {
     name: "Home",
@@ -173,6 +175,15 @@ const projects = [
     title: "/buymeacoffee-peach.vercel.app",
     link: "http://buymeacoffee-peach.vercel.app"
   },
+  {
+    id: 4,
+    heading: "FlipCard Game",
+    des: "A fun and interactive FlipCard game built with React.js, featuring dynamic card flipping animations and score tracking for an engaging user experience.",
+    img: "/images/flipcard.png",
+    iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/three.svg"],
+    title: "/flipcard-chi.vercel.app",
+    link: "http://flipcard-chi.vercel.app"
+  }
 ];
 
 const footerIconsList = [
