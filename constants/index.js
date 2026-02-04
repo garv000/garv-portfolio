@@ -177,12 +177,12 @@ const projects = [
   },
   {
     id: 4,
-    heading: "FlipCard Game",
-    des: "A fun and interactive FlipCard game built with React.js, featuring dynamic card flipping animations and score tracking for an engaging user experience.",
+    heading: "FlipCards Game",
+    des: "A fun and interactive Playing Cards flipping game built with React.js, featuring dynamic card flipping animations and score tracking for an engaging user experience.",
     img: "/images/flipcards.png",
     iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/Node.js.svg"],
-    title: "/flipcard-chi.vercel.app",
-    link: "http://flipcard-chi.vercel.app"
+    title: "/flipcards-chi.vercel.app",
+    link: "http://flipcards-chi.vercel.app"
   }
 ];
 
