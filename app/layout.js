@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 // Google Fonts
@@ -51,6 +52,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} ${aeonikBlack.variable} ${aeonikBold.variable} ${aeonikMedium.variable} ${aeonikRegular.variable} ${aeonikLight.variable} antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
