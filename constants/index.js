@@ -183,7 +183,16 @@ const projects = [
     iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/Node.js.svg"],
     title: "/flipcards-chi.vercel.app",
     link: "http://flipcards-chi.vercel.app"
-  }
+  },
+  {
+    id: 5,
+    heading: "Spylt - Awwwards website",
+    des: "A pixel-perfect recreation of the award-winning Spylt website, built with GSAP and Next.js for stunning animations and immersive experience.",
+    img: "/images/spylt2.png",
+    iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/Node.js.svg"],
+    title: "/spylt-delta.vercel.app",
+    link: "http://spylt-delta.vercel.app"
+  },
 ];
 
 const footerIconsList = [
