@@ -89,7 +89,7 @@ const About = () => {
                                 <div className="w-1/2 p-7 hover:translate-x-5 transition-all duration-300">
                                     <h1 className='animated-text md:text-4xl text-2xl aeonik-bold'>
                                         <div className='md:text-xl text-sm'>The Inside Scoop</div>
-                                        Currently learning GSAP</h1>
+                                        Currently learning Three.js</h1>
                                 </div>
                                 <div className='absolute bottom-0 right-0'>
                                     <img src="/images/b5.svg" alt="b5" className='md:w-120 w-50' />
