@@ -12,10 +12,10 @@ const Projects = () => {
 
             <div className='w-full md:my-40 my-20 relative z-10'>
                 <div className='container mx-auto md:p-0 px-5'>
-                    <TitleHeader title={'MY PROJECTS'} number={'03'} text={'Check my recent project below for your goal'} />
+                    <TitleHeader title={'MY PROJECTS'} number={'03'} text={'Check my recent projects below'} />
                 </div>
                 <div className='md:mt-20 mt-10 container mx-auto md:p-0 px-5'>
-                    <div className='flex flex-wrap justify-center gap-20'>
+                    <div className='flex flex-wrap justify-center gap-30'>
 
                         {projects.map((item) => (
                             <div key={item.id} className='my-10 md:my-20'>
@@ -24,9 +24,9 @@ const Projects = () => {
                                         <div className='rounded-2xl md:h-60 h-46 bg-[url(/images/bg.png)] bg-cover bg-[#13162d] p-1 overflow-hidden'>
                                             <img src={item.img} alt={item.title} className='object-cover rotate-2 rounded-2xl mt-2' />
                                         </div>
-                                        <div className="mt-10">
+                                        <div className="mt-8">
                                             <h1 className='text-white/80 text-3xl aeonik-bold line-clamp-1 tracking-wide'>{item.heading}</h1>
-                                            <p className='text-xl mt-2 aeonik-medium line-clamp-2'>{item.des}</p>
+                                            <p className='text-xl mt-2 aeonik-medium line-clamp-4'>{item.des}</p>
                                             <div className='flex justify-between items-center mt-8'>
                                                 <div className='flex items-center'>
                                                     {item.iconLists.map((icon, index) => (

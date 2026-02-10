@@ -52,8 +52,8 @@ const About = () => {
                                     <img src="/images/flower.svg" alt="flower" className='md:w-32 w-16 flower' />
                                 </div> */}
                                 <div className="mt-16 sm:max-w-108 max-w-10/12 hover:translate-x-5 transition-all duration-300">
-                                    <h1 className='animated-text text-white/80 md:text-5xl text-3xl aeonik-bold'>Garv Singhal</h1>
-                                    <p className='animated-text md:text-2xl mt-2 aeonik-medium'> I&apos;m a Full Stack Web Developer passionate about crafting responsive and dynamic websites. My expertise lies in Next.js. I&apos;m always learning and exploring new technologies to sharpen my skills and deliver better results.</p>
+                                    {/* <h1 className='animated-text text-white/80 md:text-5xl text-3xl aeonik-bold'>Garv Singhal</h1> */}
+                                    <p className='animated-text md:text-2xl aeonik-medium'> I&apos;m a Creative Developer skilled in crafting interactive and dynamic websites and applications. My expertise lies in <em>MERN Stack</em> and <em>Next.js</em>. I&apos;m always learning and exploring new tools and technologies.</p>
                                 </div>
                             </div>
                         </div>
@@ -101,10 +101,10 @@ const About = () => {
                                 <div className='w-full h-full overflow-hidden'>
                                     <BackgroundGradientAnimation>
                                         <div className='text-center pt-14'>
-                                            <h1 className='animated-text md:text-4xl text-2xl aeonik-bold'>Do you want to connect?</h1>
+                                            <h1 className='animated-text md:text-4xl text-2xl aeonik-bold'>I am available right now</h1>
                                         </div>
                                         <div className='flex justify-center p-7'>
-                                            <Link href={'#contact'} className='bg-black-300 gradient-border md:px-10 px-6 p-4 text-center md:text-lg marquee-item flex items-center justify-center gap-2 z-100 text-white/80'><span>Let&apos;s Connect</span><img src="/images/navigation.png" alt="navigation" className='pt-1' /></Link>
+                                            <Link href={'mailto:garvsinghal.work@gmail.com'} className='bg-black-300 gradient-border md:px-10 px-6 p-4 text-center md:text-lg marquee-item flex items-center justify-center gap-2 z-100 text-white/80'><span>Let&apos;s Connect</span><img src="/images/navigation.png" alt="navigation" className='pt-1' /></Link>
                                         </div>
                                     </BackgroundGradientAnimation>
                                 </div>

@@ -55,10 +55,17 @@ section {
 .gradient-title {
   background: linear-gradient(180deg,
       #fdfdfd 43.1%,
-      rgba(253, 253, 253, 0) 100%);
+      rgba(253, 253, 253, 0.25) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+/* .gradient-title {
+  background: linear-gradient(180deg,
+      #fdfdfd 43.1%,
+      rgba(253, 253, 253, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
 
 .gradient-border {
   border-radius: 20px;
@@ -169,7 +176,7 @@ section {
   height: 100%;
   position: absolute;
   overflow: hidden;
-  animation: marquee 60s linear infinite;
+  animation: marquee 30s linear infinite;
 }
 
 .marquee-item {

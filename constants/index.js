@@ -1,5 +1,3 @@
-import { id } from "zod/v4/locales";
-
 const navItems = [
   {
     name: "Home",
@@ -10,7 +8,7 @@ const navItems = [
     href: "/#about",
   },
   {
-    name: "Skills",
+    name: "Stack",
     href: "/#skills",
   },
   {
@@ -148,14 +146,23 @@ const iconsListnew = [
 ];
 
 const projects = [
+  // {
+  //   id: 1,
+  //   heading: "Personal 3D Portfolio",
+  //   des: "A visually immersive and interactive developer portfolio built using Next.js, Tailwind CSS, Three.js, and GSAP. This project showcases my web development skills through a futuristic 3D design and fluid user experience.",
+  //   img: "/images/portfolio.png",
+  //   iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/three.svg"],
+  //   title: "/garv-3dportfolio.vercel.app",
+  //   link: "http://garv-3dportfolio.vercel.app"
+  // },
   {
     id: 1,
-    heading: "Personal 3D Portfolio",
-    des: "A visually immersive and interactive developer portfolio built using Next.js, Tailwind CSS, Three.js, and GSAP. This project showcases my web development skills through a futuristic 3D design and fluid user experience.",
-    img: "/images/portfolio.png",
-    iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/three.svg"],
-    title: "/garv-3dportfolio.vercel.app",
-    link: "http://garv-3dportfolio.vercel.app"
+    heading: "Spylt - Awwwards website",
+    des: "A pixel-perfect recreation of the award-winning Spylt website, built with GSAP and Next.js for stunning animations and immersive experience.",
+    img: "/images/spylt2.png",
+    iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/Node.js.svg"],
+    title: "/spylt-delta.vercel.app",
+    link: "http://spylt-delta.vercel.app"
   },
   {
     id: 2,
@@ -178,41 +185,32 @@ const projects = [
   {
     id: 4,
     heading: "FlipCards Game",
-    des: "A fun and interactive Playing Cards flipping game built with React.js, featuring dynamic card flipping animations and score tracking for an engaging user experience.",
+    des: "A fun and interactive Playing Cards flipping game, featuring dynamic card flipping animations and score tracking for an engaging user experience.",
     img: "/images/flipcards.png",
     iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/Node.js.svg"],
     title: "/flipcards-chi.vercel.app",
     link: "http://flipcards-chi.vercel.app"
   },
-  {
-    id: 5,
-    heading: "Spylt - Awwwards website",
-    des: "A pixel-perfect recreation of the award-winning Spylt website, built with GSAP and Next.js for stunning animations and immersive experience.",
-    img: "/images/spylt2.png",
-    iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/Node.js.svg"],
-    title: "/spylt-delta.vercel.app",
-    link: "http://spylt-delta.vercel.app"
-  },
 ];
 
 const footerIconsList = [
-  {
-    name: "Facebook",
-    href: "https://www.facebook.com/garv.singhal.121",
-    icon: "/images/b-fb.svg",
-  },
-  {
-    name: "Instagram",
-    href: "https://www.instagram.com/garvsinghal00/",
-    icon: "/images/b-insta.svg",
-  },
+  // {
+  //   name: "Facebook",
+  //   href: "https://www.facebook.com/garv.singhal.121",
+  //   icon: "/images/b-fb.svg",
+  // },
+  // {
+  //   name: "Instagram",
+  //   href: "https://www.instagram.com/garvsinghal00/",
+  //   icon: "/images/b-insta.svg",
+  // },
   {
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/garv-singhal-work/",
     icon: "/images/b-linked.svg",
   },
   {
-    name: "WhatsApp",
+    name: "Github",
     href: "https://github.com/garv000",
     icon: "/images/b-whatsapp.svg",
   },
