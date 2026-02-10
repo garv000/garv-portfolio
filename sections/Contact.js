@@ -2,7 +2,7 @@ import ContactExperience from '@/components/ContactExperience'
 import ContactForm from '@/components/ContactForm'
 import TitleHeader from '@/components/TitleHeader'
 import React from 'react'
-import GradientSphere from '@/components/GradientSphere'
+// import GradientSphere from '@/components/GradientSphere'
 
 const Contact = () => {
     return (

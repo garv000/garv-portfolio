@@ -1,6 +1,6 @@
 import TechIcon from '@/components/TechIcon'
 import TitleHeader from '@/components/TitleHeader'
-import { iconsList } from '@/constants'
+// import { iconsList } from '@/constants'
 import { iconsListnew } from '@/constants'
 import React from 'react'
 

@@ -1,4 +1,3 @@
-"use client"
 import TitleHeader from '@/components/TitleHeader'
 import GradientSphere from '@/components/GradientSphere'
 import React from 'react'
