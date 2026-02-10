@@ -25,7 +25,7 @@ const Projects = () => {
                                         </div>
                                         <div className="mt-8">
                                             <h1 className='text-white/80 text-3xl aeonik-bold line-clamp-1 tracking-wide'>{item.heading}</h1>
-                                            <p className='text-xl mt-2 aeonik-medium line-clamp-4'>{item.des}</p>
+                                            <p className='text-xl mt-2 aeonik-medium line-clamp-5'>{item.des}</p>
                                             <div className='flex justify-between items-center mt-8'>
                                                 <div className='flex items-center'>
                                                     {item.iconLists.map((icon, index) => (
