@@ -17,7 +17,7 @@ const Projects = () => {
                     <div className='flex flex-wrap justify-center gap-30'>
 
                         {projects.map((item) => (
-                            <div key={item.id} className='my-10 md:my-20'>
+                            <div key={item.id} className='my-20'>
                                 <PinContainer title={item.title} href={item.link} >
                                     <div className='rounded-2xl md:p-7 p-4 md:w-110 w-86 h-full bg-[#0b0620]/50 flex flex-col backdrop-blur-md'>
                                         <div className='rounded-2xl md:h-60 h-46 bg-[url(/images/bg.png)] bg-cover bg-[#13162d] p-1 overflow-hidden'>
