@@ -143,6 +143,10 @@ const iconsListnew = [
     name: "mysql",
     image: "/images/icons/MySQL.svg",
   },
+  {
+    name: "figma",
+    image: "/images/icons/Figma.svg",
+  },
 ];
 
 const projects = [
@@ -158,7 +162,7 @@ const projects = [
   {
     id: 1,
     heading: "Spylt - Awwwards website",
-    des: "A pixel-perfect recreation of the award-winning Spylt website, built with GSAP and Next.js for stunning animations and immersive experience.",
+    des: "A pixel-perfect recreation of the awwwards-winning site Spylt, built for implementing stunning animations and immersive experience.",
     img: "/images/spylt2.png",
     iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/Node.js.svg"],
     title: "/spylt-delta.vercel.app",
@@ -167,7 +171,7 @@ const projects = [
   {
     id: 2,
     heading: "Mojito - Awwwards website",
-    des: "A pixel-perfect recreation of the award-winning Mojito site, built with GSAP and Next.js for stunning animations and immersive experience.",
+    des: "A pixel-perfect recreation of the awwwards-winning site Mojito, built for implementing stunning animations and immersive experience.",
     img: "/images/mojito2.png",
     iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/Node.js.svg"],
     title: "/mojito-kappa.vercel.app",
@@ -176,7 +180,7 @@ const projects = [
   {
     id: 3,
     heading: "BuyMeaCoffee Clone",
-    des: "A full-stack clone of the Buy Me a Coffee platform with secure payment flows and creator support features using MongoDB, Node.js, and Next.js.",
+    des: "A donation platform for creators around the world to motivate and support them for their work. Main motive to learn database and payment integration.",
     img: "/images/bmc.png",
     iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/MongoDB.svg", "/images/icons/Node.js.svg"],
     title: "/buymeacoffee-peach.vercel.app",
@@ -185,7 +189,7 @@ const projects = [
   {
     id: 4,
     heading: "FlipCards Game",
-    des: "A fun and interactive Playing Cards flipping game, featuring dynamic card flipping animations and score tracking for an engaging user experience.",
+    des: "A fun and interactive playing cards flipping game, featuring card shuffling and flipping animations and score tracking for engaging user experience.",
     img: "/images/flipcards.png",
     iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/Node.js.svg"],
     title: "/flipcards-chi.vercel.app",
@@ -207,12 +211,12 @@ const footerIconsList = [
   {
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/garv-singhal-work/",
-    icon: "/images/b-linked.svg",
+    icon: "/images/blue-linkedin.png",
   },
   {
     name: "Github",
     href: "https://github.com/garv000",
-    icon: "/images/b-whatsapp.svg",
+    icon: "/images/blue-github.png",
   },
 ];
 

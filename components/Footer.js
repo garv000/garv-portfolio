@@ -17,7 +17,7 @@ const Footer = () => {
                 </p>
 
                 {/* Icons */}
-                <div className="flex items-center gap-6 md:gap-10">
+                <div className="flex items-center gap-6 md:gap-8">
                     {footerIconsList.map((icon, index) => (
                         <a
                             key={index}
@@ -29,7 +29,7 @@ const Footer = () => {
                             <img
                                 src={icon.icon}
                                 alt={icon.name}
-                                className="w-7 md:w-9 transition-all duration-500 transform group-hover:-translate-y-2 group-hover:scale-110 group-hover:drop-shadow-[0_5px_15px_rgba(89,142,255,0.5)]"
+                                className="w-8 md:w-10 transition-all duration-500 transform group-hover:-translate-y-2 group-hover:scale-110 group-hover:drop-shadow-[0_5px_15px_rgba(89,142,255,0.5)]"
                             />
                         </a>
                     ))}

@@ -8,7 +8,7 @@ const Contact = () => {
     return (
         <section id='contact' className='overflow-hidden flex justify-center items-center relative px-5 md:p-0'>
             <div className='w-full h-full container md:my-40 my-20'>
-                <TitleHeader title={'Contact Me'} text={"Let's collaborate on tailored, sustainable solutions"} number={'04'} />
+                <TitleHeader title={'Contact Me'} text={"Let's collaborate on creative solutions"} number={'04'} />
                 <div className='mt-20'>
                     <div className='grid grid-cols-12 gap-20'>
                         <div className='md:col-span-5 col-span-12 max-w-[92vw]'>
