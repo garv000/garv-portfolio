@@ -16,7 +16,7 @@ const Hero = () => {
       />
       <div className="w-full h-full flex items-center justify-center">
         <div className="container relative w-full h-full">
-          <div className="mt-40">
+          <div className="mt-36">
             <p className="font-medium md:text-2xl text-base">
               👋 Hey, I&apos;m
             </p>
