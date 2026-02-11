@@ -40,13 +40,6 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div
-            // onClick={() => navigator.clipboard.writeText("+916395131960")}
-            className="py-2 px-4 bg-white/5 border border-white/10 backdrop-blur-sm absolute md:bottom-30 bottom-40 rounded-full z-30 cursor-pointer animate-pulse"
-          >
-            +91 6395131960
-            {/* <img src="/images/copy.png" alt="Copy" className="w-4 h-4" /> */}
-          </div>
         </div>
       </div>
 

@@ -47,11 +47,11 @@ const About = () => {
                     {/* banto grid */}
                     <div className='grid grid-cols-12 md:grid-rows-10 gap-8'>
                         <div className='md:col-span-7 col-span-12 row-span-5'>
-                            <div className='rounded-2xl p-7 w-full h-full bg-[url(/images/b1.svg)] bg-cover border border-white/20 flex flex-col justify-end'>
+                            <div className='rounded-2xl p-7 w-full h-full bg-[url(/images/b1.svg)] bg-cover border border-white/20 flex'>
                                 {/* <div>
                                     <img src="/images/flower.svg" alt="flower" className='md:w-32 w-16 flower' />
                                 </div> */}
-                                <div className="mt-16 sm:max-w-108 max-w-10/12 hover:translate-x-5 transition-all duration-300">
+                                <div className="sm:max-w-108 max-w-10/12 hover:translate-x-5 transition-all duration-300">
                                     {/* <h1 className='animated-text text-white/80 md:text-5xl text-3xl aeonik-bold'>Garv Singhal</h1> */}
                                     <p className='animated-text md:text-2xl aeonik-medium'> I&apos;m a Creative Developer skilled in crafting interactive and dynamic websites and applications. My expertise lies in <em>MERN Stack</em> and <em>Next.js</em>. I&apos;m always learning and exploring new tools and technologies.</p>
                                 </div>
@@ -67,7 +67,7 @@ const About = () => {
                         <div id='card' className='md:col-span-5 col-span-12 row-span-2'>
                             <div className='rounded-2xl p-7 w-full h-full bg-[url(/images/grid.svg)] bg-cover border border-white/20 flex items-center relative overflow-hidden bg-[#0b0620]/20 backdrop-blur-md'>
                                 <div className="hover:translate-x-5 transition-all duration-300">
-                                    <h1 className='animated-text md:text-4xl text-2xl aeonik-bold'>I constantly try to improve My tech stack</h1>
+                                    <h1 className='animated-text md:text-4xl text-2xl aeonik-bold'>I constantly try to improve my tech stack</h1>
                                 </div>
                                 <div className='absolute bottom-[-25] right-0'>
                                     <img src="/images/b4.svg" alt="b4" className='w-50' />

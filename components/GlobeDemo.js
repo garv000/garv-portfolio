@@ -400,7 +400,7 @@ export function GlobeDemo() {
       <div
         className="max-w-7xl mx-auto w-full relative md:h-60 h-50">
         <h2
-          className="text-center md:text-4xl text-2xl font-bold">
+          className="px-6 md:text-4xl text-2xl font-bold">
           I&apos;m very flexible with time zone communications
         </h2>
         <div className="absolute w-full md:-bottom-50 -bottom-40 md:h-96 h-72 z-10">
