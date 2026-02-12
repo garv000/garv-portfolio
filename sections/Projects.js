@@ -35,8 +35,8 @@ const Projects = () => {
                                                     ))}
                                                 </div>
                                                 <div className='flex items-center md:gap-2 gap-1'>
-                                                    <span className='aeonik-medium md:text-xl text-sm'>Check Live Site</span>
-                                                    <img src="/images/navigation.png" alt="navigation" className='pt-1 w-3' />
+                                                    <span className='aeonik-medium md:text-xl text-sm'>Live Site</span>
+                                                    <img src="/images/external-link.png" alt="navigation" className='w-5 opacity-80' />
                                                 </div>
                                             </div>
                                         </div>
