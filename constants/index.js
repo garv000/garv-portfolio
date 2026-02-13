@@ -129,7 +129,7 @@ const iconsListnew = [
   },
   {
     name: "expressjs",
-    image: "/images/icons/Express.svg",
+    image: "/images/icons/express-js.svg",
   },
   {
     name: "mongodb",
