@@ -77,7 +77,7 @@ const About = () => {
                         <div id='card' className='md:col-span-5 col-span-12 row-span-2'>
                             <div className='rounded-2xl p-6 w-full h-full bg-[url(/images/grid.svg)] bg-cover border border-white/20 flex items-center relative overflow-hidden bg-[#0b0620]/20 backdrop-blur-md'>
                                 <div className="hover:translate-x-5 transition-all duration-300">
-                                    <h1 className='animated-text md:text-4xl text-2xl aeonik-bold'>Focused on building responsive and interactive web applications</h1>
+                                    <h1 className='animated-text md:text-4xl text-2xl aeonik-bold'>Focussed on building responsive and interactive web applications</h1>
                                 </div>
                                 <div className='absolute bottom-[-25] right-0'>
                                     <img src="/images/b4.svg" alt="b4" className='w-50' />
