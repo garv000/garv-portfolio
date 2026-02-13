@@ -20,8 +20,8 @@ const Hero = () => {
             <p className="font-medium md:text-2xl text-base">
               👋 Hey, I&apos;m
             </p>
-            <h1 className="aeonik-bold md:text-9xl text-5xl">GARV SINGHAL</h1>
-            <h1 className="aeonik-bold md:text-8xl text-5xl">CREATIVE</h1>
+            <h1 className="aeonik-bold md:text-9xl text-5xl">GARV</h1>
+            <h1 className="aeonik-bold md:text-9xl text-5xl"> SINGHAL</h1>
           </div>
 
           <div className="absolute w-full z-30 bottom-20 md:bottom-10 right-0">
@@ -36,6 +36,7 @@ const Hero = () => {
               </div>
               <div className="flex flex-col items-end">
                 {/* <img src="images/shape.svg" alt="shape" /> */}
+                <h1 className="aeonik-bold md:text-8xl text-5xl">CREATIVE</h1>
                 <h1 className="aeonik-bold md:text-8xl text-5xl">DEVELOPER</h1>
               </div>
             </div>
