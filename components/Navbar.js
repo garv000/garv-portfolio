@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <div className="w-full flex items-center justify-center fixed z-50 top-0 left-0 md:p-0 px-4">
       <div className="container md:my-10 my-5 flex items-center justify-center">
-        <div className="flex flex-wrap items-center justify-center md:gap-6 gap-3 bg-[#0b062030] border border-white/10 rounded-xl backdrop-blur-md shadow-[0_8px_30px_rgba(0,0,0,0.25)] md:px-6 md:p-4 px-3 p-3">
+        <div className="flex flex-wrap items-center justify-center md:gap-6 gap-3 bg-[#0b062030] border border-white/10 rounded-xl backdrop-blur-md shadow-[0_8px_30px_rgba(0,0,0,0.25)] md:px-6 md:p-4 p-2">
           {navItems.map((item, index) => (
             <div
               key={index}
