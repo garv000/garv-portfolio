@@ -33,10 +33,7 @@ const Footer = () => {
 
               {/* Tooltip */}
               <span
-                className="absolute -top-8 left-1/2 -translate-x-1/2 
-        whitespace-nowrap px-3 py-1 text-xs rounded-md 
-        bg-white/10 backdrop-blur-sm text-white opacity-0 group-hover:opacity-100 
-        transition-all duration-300 pointer-events-none"
+                className="absolute -top-8 left-1/2 -translate-x-1/2 whitespace-nowrap px-3 py-1 text-xs rounded-md bg-white/10 backdrop-blur-sm text-white opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none"
               >
                 {icon.name}
               </span>
