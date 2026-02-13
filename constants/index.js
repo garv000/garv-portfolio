@@ -161,7 +161,7 @@ const projects = [
   // },
   {
     id: 1,
-    heading: "Spylt - Awwwards website",
+    heading: "Spylt - Awwwards site",
     des: "A pixel-perfect recreation of the awwwards-winning site Spylt, built for implementing stunning animations and immersive experience.",
     img: "/images/spylt2.png",
     iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/Node.js.svg"],
@@ -170,7 +170,7 @@ const projects = [
   },
   {
     id: 2,
-    heading: "Mojito - Awwwards website",
+    heading: "Mojito - Awwwards site",
     des: "A pixel-perfect recreation of the awwwards-winning site Mojito, built for implementing stunning animations and immersive experience.",
     img: "/images/mojito2.png",
     iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/Node.js.svg"],
@@ -179,7 +179,7 @@ const projects = [
   },
   {
     id: 3,
-    heading: "BuyMeaCoffee Clone",
+    heading: "BuyMeACoffee [Clone]",
     des: "A donation platform for creators around the world to motivate and support them for their work. Main motive to learn database and payment integration.",
     img: "/images/bmc.png",
     iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/MongoDB.svg", "/images/icons/Node.js.svg"],
@@ -217,6 +217,11 @@ const footerIconsList = [
     name: "Github",
     href: "https://github.com/garv000",
     icon: "/images/blue-github.png",
+  },
+  {
+    name: "garvsinghal.work@gmail.com",
+    href: "mailto:garvsinghal.work@gmail.com",
+    icon: "/images/mail.png",
   },
 ];
 

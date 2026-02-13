@@ -22,9 +22,12 @@ const NavBar = () => {
             // download="Garv_Singhal_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="py-2 px-4 rounded-lg bg-white/5 border border-white/10 font-semibold tracking-wide hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg"
+            className="gradient-title py-2 px-4 rounded-lg bg-white/5 border border-white/10 hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg"
           >
-            Download Resume
+            <div className="flex items-center justify-center gap-2">
+            <span>Download Resume</span>
+            <img src="/images/download-26.png" alt="download" className='w-4' />
+            </div>
           </a>
         </div>
       </div>
