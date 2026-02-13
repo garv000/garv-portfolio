@@ -4,7 +4,7 @@ const TitleHeader = ({ title, text, number }) => {
   return (
     <div className='flex justify-between items-center'>
       <div className=''>
-        <h1 className='gradient-title aeonik-black md:text-6xl text-4xl uppercase'>{title}</h1>
+        <h1 className='gradient-title aeonik-black md:text-6xl text-4xl uppercase tracking-wide'>{title}</h1>
         <p className='md:text-3xl md:mt-5'>{text}</p>
       </div>
       <div className='md:flex hidden items-center gap-7'>

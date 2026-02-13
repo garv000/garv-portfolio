@@ -18,18 +18,13 @@ const NavBar = () => {
             </div>
           ))}
           <a
-            href="tel:+916395131960"
-            className="py-2 px-4 
-             rounded-lg 
-             bg-white/5
-             border border-white/10 
-             font-semibold tracking-wide
-             hover:scale-105 
-             active:scale-95 
-             transition-all duration-300 
-             shadow-lg"
+            href="/resume/Garv_Singhal_Resume.pdf"
+            // download="Garv_Singhal_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="py-2 px-4 rounded-lg bg-white/5 border border-white/10 font-semibold tracking-wide hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg"
           >
-            Call +91 6395131960
+            Download Resume
           </a>
         </div>
       </div>

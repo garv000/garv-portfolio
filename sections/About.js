@@ -65,9 +65,9 @@ const About = () => {
                             </div>
                         </div>
                         <div id='card' className='md:col-span-5 col-span-12 row-span-2'>
-                            <div className='rounded-2xl p-7 w-full h-full bg-[url(/images/grid.svg)] bg-cover border border-white/20 flex items-center relative overflow-hidden bg-[#0b0620]/20 backdrop-blur-md'>
+                            <div className='rounded-2xl p-6 w-full h-full bg-[url(/images/grid.svg)] bg-cover border border-white/20 flex items-center relative overflow-hidden bg-[#0b0620]/20 backdrop-blur-md'>
                                 <div className="hover:translate-x-5 transition-all duration-300">
-                                    <h1 className='animated-text md:text-4xl text-2xl aeonik-bold'>I constantly try to improve my tech stack</h1>
+                                    <h1 className='animated-text md:text-4xl text-2xl aeonik-bold'>Continuously learning by building and experimenting with new tools</h1>
                                 </div>
                                 <div className='absolute bottom-[-25] right-0'>
                                     <img src="/images/b4.svg" alt="b4" className='w-50' />
@@ -75,9 +75,9 @@ const About = () => {
                             </div>
                         </div>
                         <div id='card' className='md:col-span-5 col-span-12 row-span-2'>
-                            <div className='rounded-2xl p-7 w-full h-full bg-[url(/images/grid.svg)] bg-cover border border-white/20 flex items-center relative overflow-hidden bg-[#0b0620]/20 backdrop-blur-md'>
+                            <div className='rounded-2xl p-6 w-full h-full bg-[url(/images/grid.svg)] bg-cover border border-white/20 flex items-center relative overflow-hidden bg-[#0b0620]/20 backdrop-blur-md'>
                                 <div className="hover:translate-x-5 transition-all duration-300">
-                                    <h1 className='animated-text md:text-4xl text-2xl aeonik-bold'>Tech enthusiast with a passion for development.</h1>
+                                    <h1 className='animated-text md:text-4xl text-2xl aeonik-bold'>Focused on building responsive and interactive web applications</h1>
                                 </div>
                                 <div className='absolute bottom-[-25] right-0'>
                                     <img src="/images/b4.svg" alt="b4" className='w-50' />
@@ -86,10 +86,10 @@ const About = () => {
                         </div>
                         <div id='card' className='md:col-span-7 col-span-12 row-span-5'>
                             <div className='rounded-2xl w-full h-full bg-[url(/images/grid.svg)] bg-cover border border-white/20 flex items-center relative overflow-hidden bg-[#0b0620]/20 backdrop-blur-md'>
-                                <div className="w-1/2 p-7 hover:translate-x-5 transition-all duration-300">
+                                <div className="w-1/2 p-6 hover:translate-x-5 transition-all duration-300">
                                     <h1 className='animated-text md:text-4xl text-2xl aeonik-bold'>
                                         <div className='md:text-xl text-sm'>The Inside Scoop</div>
-                                        Currently learning Three.js</h1>
+                                        Currently exploring AWS Services</h1>
                                 </div>
                                 <div className='absolute bottom-0 right-0'>
                                     <img src="/images/b5.svg" alt="b5" className='md:w-120 w-50' />
