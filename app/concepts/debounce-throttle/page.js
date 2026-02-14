@@ -36,6 +36,7 @@ const Page = () => {
       <h1 className="text-3xl font-bold underline text-center my-4 mx-auto">
         Debounce and Throttle
       </h1>
+      <p className="mx-auto text-center p-6">When searching without debounce you see search request is created for each character addon, while searching with debounce, search request is only generated after some time period when you stopped typing and In case of throttle search query is generated after each fixed time interval irrespective of typing event.</p>
       {/* implementing debounce and throttle in search example where user enters input and search api is called for searching data*/}
       <div className="flex items-center justify-around m-6 p-6 border rounded-lg shadow-lg">
         <form className="flex flex-col items-center m-6 p-6 border rounded-lg shadow-lg">

@@ -148,6 +148,7 @@ const Page = () => {
         Asynchronous JavaScript
       </h1>
       <div className="p-6 mx-auto text-center">
+      <p>On clicking left button each category data load one by one, While clicking on right button you see each category load simultaneously instead of one by one</p>
         <button
           onClick={sequentialCalls}
           className="m-6 rounded bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"

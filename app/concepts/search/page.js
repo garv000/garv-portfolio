@@ -147,6 +147,9 @@ const Page = () => {
       <h1 className="text-3xl font-bold underline text-center my-4 mx-auto">
         Map, Filter and Reduce
       </h1>
+        <p className="px-6">Map: In map first all the data of each category is fetched then from whole data only required data like name, image, price etc. is mapped in cards instead of showing complete data about each product</p>
+        <p className="px-6">Filter: Created a input field and button in which only products having price less than or equal to user entered price is filtered from whole data and displayed on UI.</p>
+        <p className="px-6">Reduce: In cart section when you add any product to cart the cart stores the list of product and prices. For total price calculation reduce function is implemented to reduce the list of price into a single value by adding them all.</p>
       <div className="p-6 mx-auto text-center">
 
         {/* Applying Filter functionality on price*/}
