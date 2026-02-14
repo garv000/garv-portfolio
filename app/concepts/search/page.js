@@ -145,26 +145,12 @@ const Page = () => {
       {console.log(smartphones)}
       {console.log(furniture)} */}
       <h1 className="text-3xl font-bold underline text-center my-4 mx-auto">
-        Asynchronous JavaScript
+        Map, Filter and Reduce
       </h1>
       <div className="p-6 mx-auto text-center">
-        <button
-          onClick={sequentialCalls}
-          className="m-6 rounded bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
-        >
-          Show products by categories sequentially
-        </button>
-        <button
-          onClick={parallelCalls}
-          className="m-6 rounded bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
-        >
-          Show products by categories in parallel
-        </button>
-
-        {loading && <p className="mb-4 text-gray-600">Loading...</p>}
 
         {/* Applying Filter functionality on price*/}
-        {/* <form className="mb-6" onSubmit={filteredParallelCalls}>
+        <form className="mb-6" onSubmit={filteredParallelCalls}>
           <input
             type="number"
             placeholder="Min Price"
@@ -180,7 +166,7 @@ const Page = () => {
           >
             Apply Price Filter
           </button>
-        </form> */}
+        </form>
 
         <div className="flex flex-col justify-center items-center">
           {/* Beauty */}
