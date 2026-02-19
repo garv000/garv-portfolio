@@ -182,7 +182,7 @@ const projects = [
     heading: "Roomify",
     des: "Convert your boring 2D floor plans into a photorealistic, top-down 3D architectural image using AI and compare it with your previous 2d floor plan.",
     img: "/images/roomify.png",
-    iconLists: ["/images/icons/React.svg", "/images/icons/react_router.png", "/images/icons/Tailwind CSS.svg", "/images/icons/MongoDB.svg", "/images/icons/Node.js.svg"],
+    iconLists: ["/images/icons/React.svg", "/images/icons/react_router.png", "/images/icons/Tailwind CSS.svg", "/images/icons/puter.svg", "/images/icons/Node.js.svg"],
     title: "/roomify-home.vercel.app",
     link: "http://roomify-home.vercel.app"
   },
@@ -204,6 +204,15 @@ const projects = [
     title: "/flipcards-chi.vercel.app",
     link: "http://flipcards-chi.vercel.app"
   },
+  // {
+  //   id: 6,
+  //   heading: "Netzcore",
+  //   des: "",
+  //   img: "/images/netzcore.png",
+  //   iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/Node.js.svg"],
+  //   title: "/flipcards-chi.vercel.app",
+  //   link: "http://netzcore-ten.vercel.app"
+  // },
 ];
 
 const footerIconsList = [
