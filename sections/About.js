@@ -2,41 +2,41 @@
 import GradientSphere from "@/components/GradientSphere";
 import TitleHeader from "@/components/TitleHeader";
 import React from "react";
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-gsap.registerPlugin(ScrollTrigger);
+// import gsap from "gsap";
+// import { useGSAP } from "@gsap/react";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
+// gsap.registerPlugin(ScrollTrigger);
 import Link from "next/link";
 import { BackgroundGradientAnimation } from "@/components/background-gradient-animation";
 import { GlobeDemo } from "@/components/GlobeDemo";
 import { footerIconsList } from "@/constants";
 
 const About = () => {
-  useGSAP(() => {
-    gsap.from("#card", {
-      opacity: 0,
-      y: 50,
-      stagger: 0.2,
-      duration: 0.8,
-      ease: "power3.inOut",
-      scrollTrigger: {
-        trigger: "#about",
-        start: "top top",
-      },
-    });
+  // useGSAP(() => {
+  //   gsap.from("#card", {
+  //     opacity: 0,
+  //     y: 50,
+  //     stagger: 0.2,
+  //     duration: 0.5,
+  //     ease: "power3.inOut",
+  //     scrollTrigger: {
+  //       trigger: "#about",
+  //       start: "top center",
+  //     },
+  //   });
 
-    gsap.from(".animated-text", {
-      opacity: 0,
-      y: 20,
-      stagger: 0.15,
-      duration: 0.6,
-      ease: "power3.inOut",
-      scrollTrigger: {
-        trigger: "#about",
-        start: "top top",
-      },
-    });
-  }, []);
+  //   gsap.from(".animated-text", {
+  //     opacity: 0,
+  //     y: 20,
+  //     stagger: 0.15,
+  //     duration: 0.6,
+  //     ease: "power3.inOut",
+  //     scrollTrigger: {
+  //       trigger: "#about",
+  //       start: "top top",
+  //     },
+  //   });
+  // }, []);
 
   return (
     <section

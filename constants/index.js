@@ -179,7 +179,16 @@ const projects = [
   },
   {
     id: 3,
-    heading: "BuyMeACoffee [Clone]",
+    heading: "Roomify",
+    des: "Convert your boring 2D floor plans into a photorealistic, top-down 3D architectural image using AI and compare your 2d floor plan with 3d visualize image.",
+    img: "/images/roomify.png",
+    iconLists: ["/images/icons/React.svg", "/images/icons/react_router.png", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/Node.js.svg"],
+    title: "/roomify-home.vercel.app",
+    link: "http://roomify-home.vercel.app"
+  },
+  {
+    id: 4,
+    heading: "BuyMeACoffee",
     des: "A donation platform for creators around the world to motivate and support them for their work. Main motive to learn database and payment integration.",
     img: "/images/bmc.png",
     iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/MongoDB.svg", "/images/icons/Node.js.svg"],
@@ -187,7 +196,7 @@ const projects = [
     link: "http://buymeacoffee-peach.vercel.app"
   },
   {
-    id: 4,
+    id: 5,
     heading: "FlipCards Game",
     des: "A fun and interactive playing cards flipping game, featuring card shuffling and flipping animations and score tracking for engaging user experience.",
     img: "/images/flipcards.png",
