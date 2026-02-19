@@ -180,7 +180,7 @@ const projects = [
   {
     id: 3,
     heading: "Roomify",
-    des: "Convert your boring 2D floor plans into a photorealistic, top-down 3D architectural image using AI and compare your 2d floor plan with 3d visualize image.",
+    des: "Convert your boring 2D floor plans into a photorealistic, top-down 3D architectural image using AI and compare it with your previous 2d floor plan.",
     img: "/images/roomify.png",
     iconLists: ["/images/icons/React.svg", "/images/icons/react_router.png", "/images/icons/Tailwind CSS.svg", "/images/icons/MongoDB.svg", "/images/icons/Node.js.svg"],
     title: "/roomify-home.vercel.app",
