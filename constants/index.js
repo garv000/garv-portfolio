@@ -204,15 +204,24 @@ const projects = [
     title: "/flipcards-chi.vercel.app",
     link: "http://flipcards-chi.vercel.app"
   },
-  // {
-  //   id: 6,
-  //   heading: "Netzcore",
-  //   des: "",
-  //   img: "/images/netzcore.png",
-  //   iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/Node.js.svg"],
-  //   title: "/flipcards-chi.vercel.app",
-  //   link: "http://netzcore-ten.vercel.app"
-  // },
+  {
+    id: 6,
+    heading: "Netzcore",
+    des: "A visually immersive and attractive IT services website featuring multiple animated cards and components to showcase services and projects.",
+    img: "/images/netzcore.png",
+    iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/Node.js.svg"],
+    title: "/netzcore-ten.vercel.app",
+    link: "http://netzcore-ten.vercel.app"
+  },
+  {
+    id: 7,
+    heading: "Jesko - Awwwards site",
+    des: "A pixel-perfect recreation of the awwwards-winning site Jesko Jets, built for implementing stunning animations and immersive experience.",
+    img: "/images/jesko.png",
+    iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/Node.js.svg"],
+    title: "/jesko-alpha.vercel.app",
+    link: "http://jesko-alpha.vercel.app"
+  },
 ];
 
 const footerIconsList = [
