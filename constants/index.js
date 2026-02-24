@@ -162,7 +162,7 @@ const projects = [
   {
     id: 1,
     heading: "Spylt - Awwwards site",
-    des: "A pixel-perfect recreation of the awwwards-winning site Spylt, built for implementing stunning animations and immersive experience.",
+    des: "A pixel-perfect recreation of the awwwards-winning site Spylt, built for showcasing protein milkshakes using stunning animations.",
     img: "/images/spylt2.png",
     iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/Node.js.svg"],
     title: "/spylt-delta.vercel.app",
@@ -171,7 +171,7 @@ const projects = [
   {
     id: 2,
     heading: "Mojito - Awwwards site",
-    des: "A pixel-perfect recreation of the awwwards-winning site Mojito, built for implementing stunning animations and immersive experience.",
+    des: "An awwwards style Mojito landing page, built for featuring products using stunning animations and creating immersive experience.",
     img: "/images/mojito2.png",
     iconLists: ["/images/icons/React.svg", "/images/icons/nextjs-icon.svg", "/images/icons/Tailwind CSS.svg", "/images/icons/gsap-greensock.svg", "/images/icons/Node.js.svg"],
     title: "/mojito-kappa.vercel.app",
