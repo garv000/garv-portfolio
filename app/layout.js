@@ -41,7 +41,7 @@ const aeonikLight = localFont({
 });
 
 export const metadata = {
-  title: "Garv - 3D Portfilo",
+  title: "Garv Singhal",
   description: "3D Developer Portfolio",
 };
 
