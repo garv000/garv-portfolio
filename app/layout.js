@@ -1,5 +1,4 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import localFont from "next/font/local";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
@@ -14,32 +13,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// Local Aeonik Fonts
-const aeonikBlack = localFont({
-  src: "../public/fonts/Aeonik-Black.ttf",
-  variable: "--font-aeonik-black",
-});
-
-const aeonikBold = localFont({
-  src: "../public/fonts/Aeonik-Bold.ttf",
-  variable: "--font-aeonik-bold",
-});
-
-const aeonikMedium = localFont({
-  src: "../public/fonts/Aeonik-Medium.ttf",
-  variable: "--font-aeonik-medium",
-});
-
-const aeonikRegular = localFont({
-  src: "../public/fonts/Aeonik-Regular.ttf",
-  variable: "--font-aeonik-regular",
-});
-
-const aeonikLight = localFont({
-  src: "../public/fonts/Aeonik-Light.ttf",
-  variable: "--font-aeonik-light",
-});
-
 export const metadata = {
   title: "Garv Singhal",
   description: "3D Developer Portfolio",
@@ -49,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${aeonikBlack.variable} ${aeonikBold.variable} ${aeonikMedium.variable} ${aeonikRegular.variable} ${aeonikLight.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
         <Analytics />

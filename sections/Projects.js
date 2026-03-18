@@ -24,8 +24,8 @@ const Projects = () => {
                                             <img src={item.img} alt={item.title} className='object-cover rotate-2 rounded-2xl mt-2' />
                                         </div>
                                         <div className="mt-8">
-                                            <h1 className='text-white/80 text-3xl aeonik-bold line-clamp-1 tracking-wide'>{item.heading}</h1>
-                                            <p className='text-xl mt-2 aeonik-medium line-clamp-5'>{item.des}</p>
+                                            <h1 className='text-white/80 text-3xl font-bold line-clamp-1 tracking-wide'>{item.heading}</h1>
+                                            <p className='text-xl mt-2 font-semibold line-clamp-5'>{item.des}</p>
                                             <div className='flex justify-between items-center mt-8'>
                                                 <div className='flex items-center'>
                                                     {item.iconLists.map((icon, index) => (
@@ -35,7 +35,7 @@ const Projects = () => {
                                                     ))}
                                                 </div>
                                                 <div className='flex items-center md:gap-2 gap-1'>
-                                                    <span className='aeonik-medium md:text-xl text-sm'>Live Site</span>
+                                                    <span className='font-semibold md:text-xl text-sm'>Live Site</span>
                                                     <img src="/images/external-link.png" alt="navigation" className='w-5 opacity-80' />
                                                 </div>
                                             </div>

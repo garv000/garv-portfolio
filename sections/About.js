@@ -59,8 +59,8 @@ const About = () => {
             <div className="md:col-span-7 col-span-12 row-span-5">
               <div className="rounded-2xl p-7 w-full h-full bg-[url(/images/b1.svg)] bg-cover border border-white/20 flex flex-col justify-between">
                 <div className="sm:max-w-108 max-w-10/12 hover:translate-x-5 transition-all duration-300">
-                  {/* <h1 className='animated-text text-white/80 md:text-5xl text-3xl aeonik-bold'>Garv Singhal</h1> */}
-                  <p className="animated-text md:text-2xl aeonik-medium">
+                  {/* <h1 className='animated-text text-white/80 md:text-5xl text-3xl font-bold'>Garv Singhal</h1> */}
+                  <p className="animated-text md:text-2xl font-semibold">
                     {" "}
                     I&apos;m a Creative Developer skilled in crafting
                     interactive and dynamic websites and applications. My
@@ -104,8 +104,8 @@ const About = () => {
             <div id="card" className="md:col-span-5 col-span-12 row-span-2">
               <div className="rounded-2xl p-6 w-full h-full bg-[url(/images/grid.svg)] bg-cover border border-white/20 flex items-center relative overflow-hidden bg-[#0b0620]/20 backdrop-blur-md">
                 <div className="hover:translate-x-5 transition-all duration-300">
-                  <h1 className="animated-text md:text-4xl text-2xl aeonik-bold">
-                    Continuously learning by building and experimenting with new
+                  <h1 className="animated-text md:text-4xl text-2xl font-bold">
+                    Continuously learning by experimenting and building with new
                     tools
                   </h1>
                 </div>
@@ -117,7 +117,7 @@ const About = () => {
             <div id="card" className="md:col-span-5 col-span-12 row-span-2">
               <div className="rounded-2xl p-6 w-full h-full bg-[url(/images/grid.svg)] bg-cover border border-white/20 flex items-center relative overflow-hidden bg-[#0b0620]/20 backdrop-blur-md">
                 <div className="hover:translate-x-5 transition-all duration-300">
-                  <h1 className="animated-text md:text-4xl text-2xl aeonik-bold">
+                  <h1 className="animated-text md:text-4xl text-2xl font-bold">
                     Focussed on building responsive and interactive web
                     applications
                   </h1>
@@ -130,7 +130,7 @@ const About = () => {
             <div id="card" className="md:col-span-7 col-span-12 row-span-5">
               <div className="rounded-2xl w-full h-full bg-[url(/images/grid.svg)] bg-cover border border-white/20 flex items-center relative overflow-hidden bg-[#0b0620]/20 backdrop-blur-md">
                 <div className="w-1/2 p-6 hover:translate-x-5 transition-all duration-300">
-                  <h1 className="animated-text md:text-4xl text-2xl aeonik-bold">
+                  <h1 className="animated-text md:text-4xl text-2xl font-bold">
                     <div className="md:text-xl text-sm">The Inside Scoop</div>
                     Currently exploring AWS Services
                   </h1>
@@ -149,7 +149,7 @@ const About = () => {
                 <div className="w-full h-full overflow-hidden">
                   <BackgroundGradientAnimation>
                     <div className="text-center pt-14">
-                      <h1 className="animated-text md:text-4xl text-2xl aeonik-bold">
+                      <h1 className="animated-text md:text-4xl text-2xl font-bold">
                         I am available right now
                       </h1>
                     </div>
